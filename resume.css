@@ -1,0 +1,335 @@
+body{
+    background-color: darkgrey;
+    margin:0;
+    padding:0;
+}
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.head{
+    background-color: black;
+    height:140px;
+    width:100%;
+    float:top;
+    
+    margin-top: 0 px;
+    
+}
+.main {
+         width:100%;
+        height:10%;
+    }
+    .marq {
+        padding-top:10px;
+        padding-bottom:10px;
+        height:100%;
+    } 
+.left{
+    
+    float:left;
+    height:18%;
+    width:50px;
+    padding-top:10px;
+     margin-left:20%;
+    clear:both;
+    border-collapse:collapse;
+    
+}
+.img{
+    border-radius: 100px;
+    height:100px;
+    
+}
+.right{
+    float:left;
+    position: absolute;
+    height: 10%;
+    width:480px;
+    padding-left:2px;
+    color:white;
+    padding-top:5px;
+    clear:both;
+    font-family: 'Teko', sans-serif;
+    border-collapse:collapse;
+    margin-left: 28%;
+}
+h4:before {
+    content: ' \27AF';
+}
+.necessary:after{
+    width:90%;
+    overflow:inherit;
+    margin:2px;
+}
+.non-necessary[
+display:none;
+]
+@media screen and (max-width: 992px) {
+  .necessary {
+    width: 38%;
+      margin-left: 20%;
+      margin-right: 42%;
+      
+  }
+    .non-necessary{
+        width:20%;
+        margin-left: 62%;
+        margin-right: 18%;
+    
+    }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .necessary{
+    width: 90%;
+      margin-left: 5%;
+      margin-right:5%;
+      overflow:hidden;
+      height: auto;
+    }
+    .non-necessary{
+        display:none;
+    }
+  }
+.mleft{
+    float:left;
+    height:200px;
+    width:38%;
+    margin-left:20%;
+    clear: :both;
+    background-color: white;
+     padding:5px 10px 10px 20px;
+    margin-top:30px;
+}
+.mleft2{
+    float:left;
+    height:500px;
+    width:38%;
+    margin-left:20%;
+    clear:both;
+    background-color:white;
+    margin-top:25px;
+    padding:10px 10px 10px 20px;
+}
+.mleft3{
+    float:left;
+    height:400px;
+    width:38%;
+    margin-left:20%;
+    
+    margin-top: 600px;
+}
+.mleft4{
+    float:left;
+    height:450px;
+    width:540px;
+    margin-left:20%;
+    margin-top:810px;
+    clear:both;
+    position: absolute;
+    background-color:white;
+    color:black;
+}
+.mleft5{
+    float:left;
+    height:400px;
+    width:38%;
+    margin-left:20%;
+    margin-top:1250px;
+    clear:both;
+    color:white;
+    position:absolute;
+}
+.mleft6{
+    float: left;
+    height:500px;
+    background-color: white;
+    margin-top: 1530px;
+    clear:both;
+    width:38%;
+    height:500px;
+    position: absolute;
+    margin-left:20%;
+}
+.github{
+    margin-top:15px;
+    border:2px solid black;
+    
+}
+.mright{
+    float:left;
+    height:170px;
+    width:20%;
+    position: absolute;
+    padding:10px 10px 10px 10px;
+    clear:both;
+    margin-left:62%;
+    margin-top: 30px;
+     background-color: white;
+}
+.mright2{
+    float:left;
+    position: absolute;
+    
+    margin-left:62%;
+    clear:both;
+    width:20%;
+    height: 530px;
+    margin-top:250px;
+    padding:4px 10px 4px 10px;
+    background-color: white;
+        
+}
+.mright3{
+    float:left;
+    position: absolute;
+    padding-left:2%;
+    margin-left: 62%;
+    clear:both;
+    width:20%;
+    height:360px;
+    margin-top:800px;
+    padding:10px 10px 10px 10px;
+    background-color: white;
+}
+.mright4{
+    float:left;
+    position:absolute;
+    padding:10px 10px 10px 10px;
+    clear:both;
+    height:300px;
+    width:20%;
+    background-color: white;
+    margin-top:1190px;
+    margin-left:62%;
+    
+}
+.mright5{
+    float:left;
+    position:absolute;
+     padding:10px 10px 10px 10px;
+    clear:both;
+    height:200px;
+    background-color: white;
+    margin-left: 62%;
+    margin-top:1530px;
+    width:20%;
+    
+}
+.exp{
+    float:left;
+    position: absolute;
+    border-radius: 100px;
+    width:40px;
+    height:40px;
+    margin-left:10px;
+    clear:both;
+}
+.exph{
+    float:right;
+    width:auto;
+    height:10px;
+    margin-right:20%;
+    clear:both;
+}
+    .checked {
+  color: orange;
+}
+}
+
+p{ 
+    color:saddlebrown;
+    font-family: 'Adamina', serif;
+}
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+li,h4,p{
+    color:saddlebrown;
+}
+h3{
+    text-shadow: 50px 20px 20px #GREY;
+    font-family: 'Adamina', serif;
+}
+p{
+    font-size:16px;
+    font-family: 'Adamina', serif;
+}
+footer{
+    margin-bottom:0;
+    background-color: black;
+    width:100%;
+    height:180px;
+    margin-top:1900px;
+    position:fixed;
+    bottom:0px;
+}
+.contact1{
+    margin-top:2px;
+    width:35%;
+    color:white;
+    margin-left:40%;
+    float:left;
+    margin-bottom:2px;
+    
+}
